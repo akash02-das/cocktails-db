@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Import Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,9 +9,14 @@ import Error from "./pages/Error";
 
 const App = () => {
   return (
-    <>
-      <h1>App Component</h1>
-    </>
+    <Router>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/about">
+        <About />
+      </Route>
+    </Router>
   );
 };
 
