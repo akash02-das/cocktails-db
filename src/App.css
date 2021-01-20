@@ -202,6 +202,7 @@ Navbar
   transition: var(--mainTransition);
 }
 
+.nav-links a.active-nav,
 .nav-links a:hover {
   color: var(--primaryColor);
 }
