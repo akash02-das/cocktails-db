@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was built using only React Hooks and React-Router-DOM and use The Cocktail DB API to get our data.
+This project was built using only React Hooks and React-Router-DOM and use The Cocktail DB API to get our data ( https://www.thecocktaildb.com/api.php ).
 
 ## Available Scripts
 
